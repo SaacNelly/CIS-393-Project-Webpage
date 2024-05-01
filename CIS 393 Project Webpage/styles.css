@@ -1,0 +1,130 @@
+html, body
+{  
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(169, 134, 209);
+}
+
+#navigationBar h1{
+    margin: 0;
+}
+
+#navigationBar
+{
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(125, 76, 181);
+    font-style: italic;
+}
+
+.navButton
+{
+    display: flex;
+    display: inline-block;
+    padding: 10px 10px;
+    color: black;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    font-family: 'Anta';
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+#title
+{
+    display: flex;
+    justify-content: center;
+    font-family:'Anta';
+    font-style: italic;
+    font-size: 30px;
+    position: static;
+}
+
+#formIn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+#inputGroup
+{
+    display: flex;
+    align-items: stretch;
+}
+
+#wordIn
+{
+    flex: 5;
+    width: 500px;
+    height: 40px;
+    font-size: 30px;
+    padding-left: 10px;
+    border: 2px solid;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#sButton
+{
+    flex: 1;
+    height: 46px;
+    font-size: 34px;
+    font-family: 'anta';
+    border: 2px solid;
+    border-left: 0px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#aboutPage
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutInfo
+{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'anta';
+    margin-top: 10px;
+    text-align: center;
+    width: 700px;
+}
+
+#spinningCockroach
+{
+    display: flex;
+    justify-content: center;
+}
+
+#spinRoachGIF
+{
+    width: 200px;
+}
+
+#aboutInfo h1
+{
+    font-size: 60px;
+}
+
+#aboutInfo p
+{
+    font-size: 20px;
+}

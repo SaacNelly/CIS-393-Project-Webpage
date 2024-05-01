@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Database Manager</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navigationBar">
+        <nav><a href="index.html" class="navButton">Home</a></nav>
+        <nav><a href="about.html" class="navButton">About</a></nav>
+    </div>
+    
+    <div id="title">
+        <h1>User Management</h1>
+    </div>
+
+    <div id="formIn">
+        <form action="#" method="post">
+            <div>
+                <input type="text" id="name" name="name" placeholder="Enter name">
+                <input type="number" id="age" name="age" placeholder="Enter age">
+                <input type="date" id="dob" name="dob" placeholder="Enter date of birth">
+
+                <button type="button" onclick="insertUser()">Add User</button>
+                <button type="button" onclick="updateUser()">Update User</button>
+                <button type="button" onclick="deleteUser()">Delete User</button>
+                <button type="button" onclick="searchUser()">Search User</button>
+                <button type="button" onclick="displayUsers()">Display All Users</button>
+            </div>
+        </form>
+        <div id="result"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
